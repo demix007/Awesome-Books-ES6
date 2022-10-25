@@ -17,7 +17,7 @@ main {
 }
 
 header {
-  border: .3rem rgb(16, 16, 16) solid;
+  border: 0.3rem rgb(16, 16, 16) solid;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -30,12 +30,12 @@ header {
 
 #main-nav-links {
   display: flex;
-} 
+}
 
 #main-nav-links li {
   list-style: none;
-  padding: .5rem;
-  border-right: .2rem hsl(238, 59%, 13%) solid;
+  padding: 0.5rem;
+  border-right: 0.2rem hsl(238, 59%, 13%) solid;
 }
 
 #main-nav-links li a {
@@ -72,7 +72,7 @@ header {
   width: 80%;
   margin: auto;
   font-size: 1.65rem;
-  border: .2rem #000 solid;
+  border: 0.2rem #000 solid;
 }
 
 .book-card {
@@ -96,8 +96,8 @@ header {
   padding: 0 5.6rem 1.6rem;
 }
 
-#contact h2,
-.form h2 {
+.form h2,
+#contact h2 {
   font-size: 2.7rem;
   margin: 4.1rem 0 6.5rem;
 }
@@ -110,7 +110,7 @@ header {
 
 .btn-add-book {
   align-self: flex-end;
-  padding: .4rem 1.7rem;
+  padding: 0.4rem 1.7rem;
   font-size: 1.7rem;
   border: 2px solid #000;
 }
@@ -118,10 +118,10 @@ header {
 .remove-book-btn {
   background-color: rgb(134, 5, 5);
   font-size: 1.65rem;
-  padding: .6rem;
+  padding: 0.6rem;
   color: #fff;
-  border: .1rem solid rgb(134, 5, 5);
-  border-radius: .4rem;
+  border: 0.1rem solid rgb(134, 5, 5);
+  border-radius: 0.4rem;
 }
 
 #contact {
@@ -134,8 +134,8 @@ header {
   margin: 0 auto;
 }
 
-#contact h2,
-#contact p {
+#contact p,
+#contact h2 {
   font-size: 1.65rem;
   text-align: center;
 }
@@ -151,11 +151,7 @@ footer {
   font-size: 1.65rem;
   margin: 10px auto;
   padding: 2rem;
-  border: .35rem black solid;
+  border: 0.35rem black solid;
   left: 13.5rem;
   bottom: 0;
-}
-
-footer p {
-  text-align: center;
 }
