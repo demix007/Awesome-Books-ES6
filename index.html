@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">   
+    <title>Awesome Books</title>
+</head>
+<body>
+
+  <!--Main Header-->
+
+  <header>
+    <h1>Awesome Books</h1>
+    <div>
+      <nav class="main-nav">
+        <ul id="main-nav-links">
+          <li> 
+            <a href="#" class="main-nav-links book-list">List</a> 
+          </li>
+          <li> 
+            <a href="#" class="main-nav-links add-new-book" id="defaultOpen">Add new</a> 
+          </li>
+          <li> 
+            <a href="#" class="main-nav-links contact">Contact</a> 
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!--Books Container Section-->
+    <section id="allBooks" class="section">
+      <h2 class="header">All Awesome Books List</h2>
+      <div class="booksContainer" >
+        
+      </div>
+    </section>
+
+    <!--Form Section-->
+    <section id="add-book-form" class="section">
+      <form action="#" class="form" id="book-form" >
+        <h2>Add a new book</h2>
+        <input type="text" placeholder="Book-Title" id="book-name" class="addAuthor" required> <br>
+        <input type="text" placeholder="Book-Author" id="book-author" class="addTitle" required> <br>
+        <button type="submit" class="btn-add-book">Add</button>
+      </form>
+    </section>
+
+    <!--Contact Section-->
+    <section class="section" id="contact">
+        <h2>Contact Information</h2>
+        <p>Do you have any questions or you just want to say "Hello"? <br>
+        &nbsp;&nbsp;You can reach out to us!</p> 
+      
+        <ul>
+          <li>Our e-mail: hello@mail.com</li>
+          <li>Our phone number: 2348144554556</li>
+          <li>Our address: Alausa, Ikeja, Nigeria</li>
+        </ul>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer>
+    <p>© Copyright</p>
+  </footer>
+  <script type="module" src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@2.4.0/build/global/luxon.min.js"></script>
+</body>
+</html> 

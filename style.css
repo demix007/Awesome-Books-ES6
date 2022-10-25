@@ -1,0 +1,137 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  width: 80%;
+  margin: 10px auto 0;
+  padding: 10px;
+  border: 3px black solid;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.date {
+  position: absolute;
+  bottom: -25px;
+  right: 0;
+  font-weight: bold;
+}
+
+#nav-links {
+  display: flex;
+}
+
+#nav-links li {
+  padding: 5px;
+  border-right: 2px black solid;
+  list-style: none;
+}
+
+#nav-links li:last-child {
+  border-right: none;
+}
+
+#nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  min-height: 330px;
+}
+
+.year {
+  color: red;
+  margin: 10px 10px 0 0;
+  font-size: 1.2rem;
+  text-align: end;
+}
+
+.header {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.tab-content {
+  display: none;
+}
+
+.booksContainer {
+  border: 2px black solid;
+  width: 80%;
+  margin: auto;
+}
+
+.book-card {
+  display: flex;
+  border: 0.5px gray solid;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.form {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 0 3.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form h2,
+#contact h2 {
+  margin: 2.5rem 0 4rem;
+}
+
+.form input {
+  width: 100%;
+  height: 35px;
+}
+
+.remove-btn {
+  padding: 5px;
+  border: none;
+  background-color: rgb(179, 4, 4);
+  color: white;
+}
+
+.addButton {
+  border: 2px solid black;
+  padding: 4px 1rem;
+  align-self: flex-end;
+}
+
+#contact {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact h2,
+#contact p {
+  text-align: center;
+}
+
+#contact ul {
+  width: max-content;
+  margin: 1.5rem auto;
+}
+
+footer {
+  width: 80%;
+  margin: 10px auto;
+  border: 3px black solid;
+  padding: 20px;
+  bottom: 0;
+  left: 8.2998rem;
+}
