@@ -10,7 +10,7 @@
 
 ## Live Demo    
 
-[Live Site Demo](https://demix007.github.io/AWESOME-BOOKS-WITH-ES6/)
+[Live Site Demo](https://demix007.github.io/Awesome-Books-ES6/)
 
 ## Getting Started
 
