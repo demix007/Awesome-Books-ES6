@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+main {
+  min-height: 33rem;
+}
+
+header {
+  border: 0.3rem rgb(16, 16, 16) solid;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem auto 0;
+}
+
+#main-nav-links {
+  display: flex;
+}
+
+#main-nav-links li {
+  list-style: none;
+  padding: 0.5rem;
+  border-right: 0.2rem hsl(238, 59%, 13%) solid;
+}
+
+#main-nav-links li a {
+  color: #000;
+  text-decoration: none;
+}
+
+#main-nav-links li:last-child {
+  border-right: none;
+}
+
+.current_date {
+  position: absolute;
+  font-weight: bold;
+  bottom: -2.5rem;
+  right: 0;
+}
+
+.year {
+  text-align: end;
+  color: rgb(247, 19, 19);
+  font-size: 1.92rem;
+  margin: 10px 10px 0 0;
+}
+
+.header {
+  text-align: center;
+  width: 80%;
+  font-size: 2.6rem;
+  margin: 4rem auto;
+}
+
+.booksContainer {
+  width: 80%;
+  margin: auto;
+  font-size: 1.65rem;
+  border: 0.2rem #000 solid;
+}
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 0.5px gray solid;
+}
+
+.tab-content {
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding: 0 5.6rem 1.6rem;
+}
+
+.form h2,
+#contact h2 {
+  font-size: 2.7rem;
+  margin: 4.1rem 0 6.5rem;
+}
+
+.form input {
+  width: 100%;
+  height: 3.7rem;
+  font-size: 1.6rem;
+}
+
+.btn-add-book {
+  align-self: flex-end;
+  padding: 0.4rem 1.7rem;
+  font-size: 1.7rem;
+  border: 2px solid #000;
+}
+
+.remove-book-btn {
+  background-color: rgb(134, 5, 5);
+  font-size: 1.65rem;
+  padding: 0.6rem;
+  color: #fff;
+  border: 0.1rem solid rgb(134, 5, 5);
+  border-radius: 0.4rem;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.65rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact p,
+#contact h2 {
+  font-size: 1.65rem;
+  text-align: center;
+}
+
+#contact ul {
+  font-size: 1.65rem;
+  width: max-content;
+  margin: 2.4rem auto;
+}
+
+footer {
+  width: 80%;
+  font-size: 1.65rem;
+  margin: 10px auto;
+  padding: 2rem;
+  border: 0.35rem black solid;
+  left: 13.5rem;
+  bottom: 0;
+}
