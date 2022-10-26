@@ -1,55 +1,40 @@
-# Awsome-books
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project is a simple book list app to know how to use,create and learn projects.
+# Awesome books: with ES6
+
+> In this project, I restructured my Awesome books app code. The goal is to make it more organized by using modules. I also practiced the ES6 syntax that I have learned.  
 
 ## Built With
 
-- HTML
-- CSS
-- JS
-- ES6
+- HTML, CSS & JAVASCRIPT.
 
-## Live Demo
+## Live Demo    
 
-- [Live Demo](https://abdullah2213565.github.io/Awsome-books/)
+[Live Site Demo](https://demix007.github.io/AWESOME-BOOKS-WITH-ES6/)
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
-`gh repo clone Abdullah2213565/Awsome-books`
+- To get a local copy up and running follow these simple example steps:
 
 ### Setup
 
-Dowload NPM and NODE
+- Download or clone this Repo in your local machine.
 
-### Install
+### Usage
 
-Install the packages globally and after that:
+- Open the index.html in your browser
 
-`npm install`
+👤 **Ayodeji Abidemi**
 
-### Run tests
-
-`npx hint .`
-`npx stylelint "**/*.scss"`
-`npx eslint .`
-
-## Contributors
-## Autor 1
-- GitHub: [@githubhandle](https://github.com/Abdullah2213565)
-- Twitter: [@twitterhandle](https://twitter.com/dulakhan024)
-
-## Autor 2
-
-👤 **Ojesanmi Elizabeth Oyin**
-
-- GitHub: [@githubhandle](https://github.com/Lizdev-05)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elizabeth-oyinlade-ojesanmi-0702aa16a)
+- GitHub: [@githubhandle](https://github.com/demix007)
+- Twitter: [@twitterhandle](https://twitter.com/dat_dope_demix)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ayodeji-abidemi-b76935218/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/demix007/AWESOME-BOOKS-WITH-ES6/issues).
 
 ## Show your support
 
@@ -57,8 +42,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Microverse](https://www.microverse.com)
+- Inspiration for this design was provided in the project requirements by Microverse.  
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

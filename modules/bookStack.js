@@ -13,7 +13,7 @@ class bookStack {
       const newBookShowcase = document.createElement('div');
       newBookShowcase.textContent = `"${title}" by ${author}`;
 
-      // creates button to remove books from list
+      // creates button to remove books from list created
       const removeBtn = document.createElement('button');
       removeBtn.type = 'button';
       removeBtn.classList.add('remove-book-btn');
